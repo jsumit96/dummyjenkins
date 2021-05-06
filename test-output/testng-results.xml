@@ -2,28 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Hello Jenkins]]>
+      <![CDATA[Welcome page is displayed]]>
     </line>
     <line>
-      <![CDATA[Hello Integrations]]>
+      <![CDATA[Welcome page is maximized]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-06T18:35:52Z" name="Default suite" finished-at="2021-05-06T18:35:52Z" duration-ms="30">
+  <suite started-at="2021-05-06T19:00:23Z" name="Default suite" finished-at="2021-05-06T19:00:28Z" duration-ms="5297">
     <groups>
     </groups>
-    <test started-at="2021-05-06T18:35:52Z" name="Default test" finished-at="2021-05-06T18:35:52Z" duration-ms="30">
-      <class name="demo.DemoTest">
-        <test-method signature="demo()[pri:0, instance:demo.DemoTest@7d20d0b]" started-at="2021-05-06T18:35:52Z" name="demo" finished-at="2021-05-06T18:35:52Z" duration-ms="9" status="PASS">
+    <test started-at="2021-05-06T19:00:23Z" name="Default test" finished-at="2021-05-06T19:00:28Z" duration-ms="5297">
+      <class name="demo.DemoTest1">
+        <test-method is-config="true" signature="demo()[pri:0, instance:demo.DemoTest1@17f7cd29]" started-at="2021-05-06T19:00:23Z" name="demo" finished-at="2021-05-06T19:00:25Z" duration-ms="2001" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Hello Jenkins]]>
-            </line>
-            <line>
-              <![CDATA[Hello Integrations]]>
-            </line>
           </reporter-output>
         </test-method> <!-- demo -->
-      </class> <!-- demo.DemoTest -->
+        <test-method signature="setup()[pri:0, instance:demo.DemoTest1@17f7cd29]" started-at="2021-05-06T19:00:25Z" name="setup" finished-at="2021-05-06T19:00:28Z" duration-ms="2941" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Welcome page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Welcome page is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:demo.DemoTest1@17f7cd29]" started-at="2021-05-06T19:00:28Z" name="close" finished-at="2021-05-06T19:00:28Z" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- demo.DemoTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
