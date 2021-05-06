@@ -7,5 +7,6 @@ public class DemoTest {
 	@Test
 	public void demo() {
 		Reporter.log("Hello Jenkins", true);
+		Reporter.log("Hello Integrations", true);
 	}
 }
